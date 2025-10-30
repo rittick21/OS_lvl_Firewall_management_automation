@@ -1,0 +1,15 @@
+1. Check if the firewall services are installed and running.
+   if not, then install and start the firewall services.
+2. Network connectivity checking option for identifying the internet is present in that particular server or not while installing services.
+3. Existing firewall rules checking.
+4. Backup existing firewall rules before making any changes.
+5. Checking the existing services supports on firewall.
+6. Checking the zones configured on the firewall.
+7. Adding or removing services on firewall as per the requirement. (Temporary or Permanent), Config reload if required.
+8. Adding or removing ports based on the requirements. (Temporary or Permanent), Config reload if required.
+9. Block or allow specific incoming or outgoing IP addresses as per the requirement.
+10. Verifying the newly added or removed services on the firewall.
+11. Testing the connectivity of the newly added services.
+12. Logging and documenting all the changes made to the firewall configuration.
+13. Scheduling regular reviews and updates of the firewall rules to ensure ongoing security compliance.
+14. Make a backup of existing firewall configuration after changes are made. 
